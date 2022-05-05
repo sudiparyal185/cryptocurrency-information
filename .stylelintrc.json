@@ -1,0 +1,36 @@
+{
+    "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+    "plugins": ["stylelint-scss"],
+    "rules": {
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "at-root",
+            "content",
+            "else",
+            "extend",
+            "function",
+            "if",
+            "include",
+            "mixin",
+            "return",
+            "warn",
+            "error",
+            "each",
+            "for"
+          ]
+        }
+      ],
+      "selector-pseudo-class-no-unknown": [
+        true,
+        {
+          "ignorePseudoClasses": ["global", "export"]
+        }
+      ],
+      "string-quotes": "double",
+      "scss/at-rule-no-unknown": true,
+      "no-descending-specificity": [true, { "severity": "warning" }]
+    }
+  }
+  
