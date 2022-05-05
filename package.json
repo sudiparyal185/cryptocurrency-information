@@ -10,16 +10,8 @@
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com/sudiparyal185/cryptocurrency-information.git"
-  },
   "author": "Sudip Aryal",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sudiparyal185/cryptocurrency-information/issues"
-  },
-  "homepage": "https://github.com/sudiparyal185/cryptocurrency-information#readme",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
